@@ -1,0 +1,100 @@
+<html></html>
+<head>
+	<title>BTVN</title>
+	<meta charset="utf-8">
+	<style>
+		div {
+			font-family: arial;
+		}
+		h1 {
+			font-size: 18pt;
+			color: #3398cb;
+			background: rgb(148, 184, 227);
+			font-family: times;
+		}
+		img {
+			float: right;
+            height: 200px;
+            width: 200px;
+		}
+		label {
+			display: inline-block;
+			width: 80px; 
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1 style="color: black; background: white; font-size: 20pt; font-family: arial">Dog D. Dog</h1>
+			<img src="13318901.png" alt="Dog D. Dog">
+		</div>
+		<div class="content">
+			<div>
+				<h1>About</h1>
+				<p>Woof woof!</p>
+				<p>Hi, I'm Dog. I love <b><span style="color:rgb(0, 13, 255)">User Interface Design</span></b>.</p>
+			</div>
+			<div>
+				<h1>Courses</h1>
+				<p>Here are some courses I've taken:</p>
+				<table border="1" cellspacing="0">
+					<tr>
+						<th>Course Number</th>
+						<th>Course Title</th>
+						<th>Semester Taken</th>
+					</tr>
+					<tr>
+						<th colspan="3">For Credit</th>
+					</tr>
+					<tr  style="color:rgb(0, 13, 255); background: white">
+						<td><b>6.813</b></td>
+						<td>User Interface Design</td>
+						<td>Spring 2014</td>
+					</tr>
+					<tr>
+						<td style="color:rgb(0, 13, 255)"><b>6.034</b></td>
+						<td>Artificial Intelligence Algorithms</td>
+						<td>Fall 2013</td>
+					</tr>
+					<tr style="background:white">
+						<td style="color:rgb(0, 13, 255)"><b>6.006</b></td>
+						<td>Introduction to Algorithms</td>
+						<td>Fall 2013</td>
+					</tr>
+					<tr>
+						<th colspan="3">Listener</th>
+					</tr>
+					<tr style="background:white">
+						<td style="color:rgb(0, 13, 255)"><b>6.867</b></td>
+						<td>Machine Learning</td>
+						<td>Fall 2013</td>
+					</tr>
+					<tr>
+						<td style="color:rgb(0, 13, 255)"><b>6.830</b></td>
+						<td>Database Systems</td>
+						<td>Fall 2012</td>
+					</tr>
+				</table>
+			</div>
+			<div>
+				<h1>Interests</h1>
+				<p>I am interested <span style="font-size: 22px; font-family: calibri"><b>HCI</b></span>, <span style="font-family: courier">memes</span>, and <span style="font-family: courier">youtube videos</span>.</p>
+			</div>
+			<div>
+				<h1>Submit Pet Information</h1>
+				<p>Would love to know what kinds of pets you 'own' (you'll never own me). Submit below!</p>
+				<form action="lab_1.php" method="post">
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name"><br>
+					<label for="phylum">Phylum:</label>
+					<input type="text" id="phylum" name="phylum"><br>
+					<label for="gender">Gender:</label>
+					<input type="text" id="gender" name="gender"><br>
+					<input type="submit" value="Submit" style="background: white; border: 1px solid gray">
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
